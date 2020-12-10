@@ -8,7 +8,7 @@ Created on Mon Nov 16 16:44:47 2020
 import numpy as np
 
 import pandas as pd
-
+from sklearn import datasets
 import streamlit as st
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
